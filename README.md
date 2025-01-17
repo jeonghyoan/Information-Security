@@ -13,9 +13,6 @@ This project focuses on ensuring privacy in financial services through secure pr
 - **Web framework**: Flask 
 - **Data Preprocessing**: Pandas, Numpy, Scikit-learn<br><br>
 
-## Conclusions & Limitations
-- The accuracy of the model using homomorphic encryption is comparable to that of the standard model, providing similar performance with enhanced security.
-- However, the training time for the model with homomorphic encryption is significantly longer than that of the standard model.<br><br>
 
 ## How to Run the Source Code
 - Please refer to the [Execution Guide](https://github.com/jeonghyoan/Information-Security/blob/main/document/src_execution_guide.pdf) 
