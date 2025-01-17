@@ -17,6 +17,9 @@ This project focuses on ensuring privacy in financial services through secure pr
 - The accuracy of the model using homomorphic encryption is comparable to that of the standard model, providing similar performance with enhanced security.
 - However, the training time for the model with homomorphic encryption is significantly longer than that of the standard model.
 
+## How to Run the Soucrce Code
+- Please refer to the [Execution Guide](https://github.com/jeonghyoan/Capstone-Design/blob/main/User%20Manual/User%20Manual.pdf) 
+
 
 
 
