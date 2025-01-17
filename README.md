@@ -8,7 +8,7 @@
 This project focuses on ensuring privacy in financial services through secure processing of sensitive data. We created a loan approval classifier using homomorphic encryption. It allows computations on encrypted data while keeping it secure throughout the process
 
 - **Used dataset:** [Loan Approval Prediction Dataset](https://www.kaggle.com/datasets/sonalisingh1411/loan-approval-prediction?resource=download&select=Training+Dataset.csv)
-- **Classification Model:** Logistic regression model to determine loan approvals based on clients' personal information.
+- **Classification Model:** Logistic regression model
 - **Encryption Library**: [pi-HEaaN](https://pypi.org/project/pi-heaan/0.4.2/)
 - **Web framework**: Flask 
 - **Data Preprocessing**: Pandas, Numpy, Scikit-learn
