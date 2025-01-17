@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+{#    # The screen where users enter their personal information to see their loan approval prediction results#}
+    <form action="{{url_for('result3')}}" method="post">
+
+      <h1>LOAN APPROVAL</h1>
+      <h4>To see if you're eligible for a loan, please fill out the information below<br></h4>
+      Name: <input type="text" name="uname" /> <br><br>
+
+      Gender: 
+      <input type="radio" name="gender" value=0 />Male
+      <input type="radio" name="gender" value=1 />Female<br><br>
+
+      Are you Married? 
+      <input type="radio" name="mrg" value=1 />Yes
+      <input type="radio" name="mrg" value=0 />No<br><br>
+
+      Are you a graduate? 
+      <input type="radio" name="edu" value=1 />Yes
+      <input type="radio" name="edu" value=0 />No<br><br>
+
+      Are you self-employed?
+      <input type="radio" name="self" value=1 />Yes
+      <input type="radio" name="self" value=0 />No<br><br>
+
+      How many dependents do you have?
+      <input type="radio" name="dep" value="0" />0
+      <input type="radio" name="dep" value="1" />1
+      <input type="radio" name="dep" value="2" />2
+      <input type="radio" name="dep" value="3+" />3+<br><br>
+
+      Income($): <input type="text" name="income" /> <br><br>
+      Coapplicant income($): <input type="text" name="co_income" /> <br><br>
+
+      Do you have a credit history that meets our guidelines?
+      <input type="radio" name="credit" value="1" />Yes
+      <input type="radio" name="credit" value="0" />No<br><br>
+
+      Where is the property area?
+      <input type="radio" name="prop" value="Urban" />Urban
+      <input type="radio" name="prop" value="Semiurban" />Semiurban
+      <input type="radio" name="prop" value="Rural" />Rural<br><br>
+      
+      Desired loan amount (1000$): <input type="text" name="amount" /> <br><br>
+      Desired loan term (months): <input type="text" name="term" /> <br><br>
+
+      <input type="submit" value="Submit"/>
+    </form>
+  </center>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <center>
+{#      This screen shows the prediction results based on the personal information entered by the user.#}
+        <br><br><br>
+        <h1 style="font-size: xxx-large">  PREDICTION  </h1> <br><br><br><br><br>
+
+    {%if data == 0%}
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+    </style>
+    <h1 style="color: snow; top: 50%; "> {{user}}, You can't get a loan :(</h1>
+
+    {%else%}
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+    </style>
+    <h1 style="color: snow; top: 50%;"> {{user}}, You are eligible for a loan from the bank! :)</h1>
+
+    {%endif%}
+        <br>
+    </center>
+</body>
+</html>
